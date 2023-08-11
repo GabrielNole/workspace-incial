@@ -96,8 +96,7 @@ footer p {
 }
 
 .alert {
-  position: fixed;
-  top: 80px;
+  margin-top: 2rem;
   width: 50%;
   left: 50%;
   transform: translate(-50%, 0);
@@ -188,3 +187,20 @@ a.custom-card:hover {
 .checked {
   color: orange;
 }
+
+.form-floating {
+  margin-bottom: 1rem;
+}
+
+/* Centrar el formulario en la pantalla */
+#login-form {
+  max-width: 330px;
+  margin: auto;
+  padding: 15px;
+}
+
+/* Alinear el botón de inicio de sesión */
+#login-form button {
+  margin-top: 1rem;
+}
+
